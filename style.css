@@ -1,0 +1,134 @@
+body {
+    
+}
+
+.home_page {
+    height: 650px;
+    padding: 16px;
+    /* background: red; */
+    /* border: 4px solid indigo; */
+    display: flex;
+    justify-content: space-around;
+  }
+
+.left_side {
+    display: flex;
+    /* background: blue; */
+    /* border: 4px solid indigo; */
+    flex: 5;
+
+}
+
+.middle {
+    display: flex;
+    /* background: green; */
+    /* border: 4px solid indigo; */
+    flex: 25 ;
+    flex-direction: column;
+    /* justify-content: space-around */
+
+}
+
+.right_side {
+    display: flex;
+    /* background: blue; */
+    /* border: 4px solid indigo; */
+    flex: 5;
+}
+
+.header {
+    display: flex;
+    /* background: red; */
+    /* border: 4px solid indigo; */
+    flex: 6;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.header {
+
+    font-size: 10;
+
+}
+
+.header_line {
+    border: none;
+    height: 1.5px;
+    width:900;
+    background: black;
+    margin: -10px auto ;
+  
+}
+
+.navbar {
+    display: flex;
+    /* background: red; */
+    /* border: 4px solid indigo; */
+    flex: 3;
+    justify-content: flex-start;
+    align-items:center;
+    margin-left: 0px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 8px;
+    color: blue;
+    margin-left: -5px;
+}
+
+.contact_navbar {
+    margin-left: 510px;
+ 
+}
+
+
+.navbar_line {
+    border: none;
+    height: 1px;
+    width:900;
+    background: gray;
+    margin: -10px auto ;
+  
+}
+
+.body {
+    display: flex;
+    /* background: red; */
+    /* border: 4px solid indigo; */
+    flex: 20;
+    flex-direction: row;
+}
+
+.about_me {
+    display: flex;
+    /* background: green; */
+    /* border: 4px solid indigo; */
+    flex: 5;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:start;
+}
+
+.about_page_header {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+
+.about_page_header_2 {
+    margin-top: 5px;
+    color: #555555;
+}
+
+
+.picture {
+    display: flex;
+    /* background: green; */
+    /* border: 4px solid indigo; */
+    flex: 5;
+    justify-content:end;
+    align-items:center;
+    padding: 50px;
+}
