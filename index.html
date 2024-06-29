@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Omar Muhdhar</title>
+    <link rel="stylesheet" href="grid.css">
 </head>
-
-<head>
-    <link rel="stylesheet" href="style.css">
-</head> 
-
 <body>
-
-    <div class="home_page">
-        <div class="left_side"></div>
-        <div class="middle">
-            <div class="header">
-                <h1>Muhammad Omar Muhdhar</h1>
+    <div class="container">
+        <div class="grid_item" id="top_left">1</div>
+        <div class="grid_item" id="top_middle">
+            <div id="header"></div>
+            <div id="header_2">
+                <h1 class="header_name">Muhammad Omar Muhdhar</h1>
             </div>
-            <hr class="header_line" width="100%" size="2">
-            
+        </div>
+        <div class="grid_item">3</div>
+        <div class="grid_item">4</div>
+        <div class="grid_item">
             <div class="navbar">
                 <div class="main_navbar">
                     <a href="#">About</a>
@@ -34,24 +32,42 @@
             </div>
             <hr class="navbar_line" width="100%" size="2">
             <div class="body">
-                <div class="about_me">
-                    <h1 class="about_page_header">About Me</h1>
-                    <h3 class="about_page_header_2"><em>Consultant, Computational Scentist, Photographer</em></h3>
+                <div class="about_text">
+                    <div class="about_me_header">
+                        <h1 class="about_page_header">About Me</h1>
+                        <h3 class="about_page_header_2"><em>Consultant, Computational Scentist, Photographer</em></h3>
+                    </div>
+                    
+                    <div class="about_me_body">
+                        <p class="about_me_intro">
+                            I earned my undergraduate degree in Politics, Economics, and Philosophy from the University of Texas at Austin, laying a foundation to comprehend the complexities of our world. Now pursuing a Master's in Computational Social Sciences at UC Berkeley, I aim to infuse a humanistic perspective into the rapidly evolving field of artificial intelligence.
+                        </p>
+                       <p class="about_me_middle">
+                        While AI has recently made significant strides, the humanities offer a crucial viewpoint currently absent in the field. Understanding technology's social and philosophical implications is pivotal for creating innovative solutions that address real-world challenges and push the boundaries of what is achievable with Artificial Intelligence.
+                       </p>
+                       <p class="about_me_end">
+                        Before joining Berkeley, I worked as a Data Operations Consultant in Wealth Asset Management, where I streamlined firms' data processes. Beyond my professional pursuits, I engage in photography as a hobby.
+                       </p>
+                    </div>
                 </div>
-                <div class="picture">
-                    <img src="Muhammad Edited.jpg" alt="this is where you insert alternative text to an image" height="400" width= auto>
+                <div class="about_picture">
+                    <img class="portfolio_picture" src="Muhammad Edited.jpg" alt="this is where you insert alternative text to an image" height="550" width= auto>
                 </div>
             </div>
 
+            
+    
+
+
         </div>
-        <div class="right_side"></div>
-
-
-
-
+        <div class="grid_item">6</div>
+        <div class="grid_item">7</div>
+        <div class="grid_item" id="bottom_middle">
+            <div id="footer">
+            </div>
+        </div>
+        <div class="grid_item">9</div>
     </div>
     
-    </div>
-
 </body>
 </html>
