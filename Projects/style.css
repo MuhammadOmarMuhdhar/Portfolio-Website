@@ -77,71 +77,35 @@
 }
 
 .body {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* min-width: 800px;
+    min-height: 500px; */
+    resize: both;
+    overflow: auto;
+    height: 100vh; 
+    width: 75vw;
+
+   
+} 
+
+.project_headers {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+
+/* .body {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
     justify-content: space-between;
-}
-
-.about_text {
-    display: flex;
-    /* background-color: #dddddd; */
-    height: 100%;
-    width: 100%;
-    min-height: 550px;
-    min-width: 450px;
-    margin-top: 10px;
-}
-
-.about_picture {
-    display: flex;
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    min-height: 550px;
-    min-width: 450px;
-    justify-content:center;
-    align-items:center;
-    margin-top: 15px;
-}
-
-.about_text{
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items: flex-start;
-    
-    /* background-color: #dddddd ; */
-
-}
-
-
-.about_page_header {
-    text-align: justify;
-    margin-top: 50px;
-    margin-bottom: 5px;
-    margin-right: 50px;
-    margin-left: 100px;
-}
-
-.about_page_header_2 {
-    text-align: justify;
-    margin-bottom: 15px;
-    margin-right: 40px;
-    margin-left: 100px;
-    margin-top: 1px;
-}
-
-.about_me_intro,
-.about_me_middle,
-.about_me_end {
-    text-align: justify;
-    margin-bottom: 15px;
-    margin-right: 50px;
-    margin-left: 100px;
-}
-
-
+} */
 
 #bottom_middle {
     text-align: center;
